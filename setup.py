@@ -5,8 +5,8 @@ setup(
     version="0.1.0",
     packages=find_packages(),
     install_requires=[
-        "httpx[http2]<=0.27.2", "ujson"
+        "httpx>=0.27.2,<0.28.0", "ujson"
     ],
     author="JonesRoot",
-    description="Google Translate unofficial API",
+    description="[FORK] Google Translate unofficial API.",
 )
