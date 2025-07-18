@@ -1,6 +1,6 @@
 [project]
 name = "gpytranslate"
-dynamic = ["0.1.1"]
+dynamic = ["version"]
 description = "[FORK] gpytranslate. Google Translate unofficial API"
 authors = [{ name = "LuciferHex", email = "" }]
 dependencies = ["aiofiles", "httpx>=0.27.2,<0.28.0"]
