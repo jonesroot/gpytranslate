@@ -8,14 +8,14 @@ except FileNotFoundError:
 
 setup(
     name="gpytranslate",
-    version="0.1.1",
+    version="0.1.2",
     author="LuciferHex",
     author_email="ikyodeos01@gmail.com",
     description="I'm From Indonesian, and I'm still learning.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=find_packages(),
-    install_requires=["aiofiles~=23.2.1", "httpx[http2]>=0.27.2,<0.28.0"],
+    install_requires=["aiofiles~=23.2.1", "httpx[http2]>=0.27.2"],
     classifiers=[
         "Intended Audience :: Developers",
         "Topic :: Software Development :: Libraries :: Python Modules",
@@ -29,5 +29,5 @@ setup(
         "Operating System :: OS Independent",
     ],
     keywords="Gtrans",
-    python_requires=">=3.9",
+    python_requires=">=3.10",
 )
